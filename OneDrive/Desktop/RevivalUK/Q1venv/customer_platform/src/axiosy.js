@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-const baseURL = 'https://dashboard.heroku.com/apps/customer-platform-beta2/api/';
+const baseURL = 'https://dashboard.heroku.com/apps/customer-platform-beta1/api/';
 
 const axiosy = axios.create({
 	baseURL: baseURL,

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://dashboard.heroku.com/apps/customer-platform-beta2/api/';
+const baseURL = 'https://dashboard.heroku.com/apps/customer-platform-beta1/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
